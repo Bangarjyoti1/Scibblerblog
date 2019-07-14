@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="F:\project jyoti\css\index.css">
+    
+</head>
+<body>
+    <!--HEADER PART-->
+    <header>
+        <nav>
+            <div class="row">
+                    <input id="signUpClick" class="topButtons" type="button"  value="Sign Up">
+                    <input id="signInClick"  class="topButtons" type="button" value="Sign In">
+                    <a id="pageTitle" class="logo-title">ScriBBler</a>
+                    <p class="middleText">Explore,Imagine,Create</p>
+             </div>
+        </nav>
+    </header>
+    <div class="postButtons">
+        <button class="mainButtons"><a href="F:\project jyoti\html\bloglist.html">All Posts</a></button>
+        <button class="mainButtons" type="button"><a href="F:\project jyoti\html\post.html">Create Post</a></button>
+    </div>
+    
+    <!-- Sign In Modal Content -->
+    <div class="modal" id="snin">
+
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <span id="c2" class="close1">&times;</span>
+                <h2>
+                    <center>Welcome Back!</center>
+                </h2>
+                <hr >
+                <form>
+                    <h4 class="elem1">Username</h4>
+                    <input class="inp1" type="text" name="fname" placeholder="Enter Username" required>
+                    <h4 class="elem1">Password</h4>
+                    <input class="inp1" type="password" name="pass" placeholder="Enter Password" required>
+                    <button>Sign In</button>
+                    <div>
+                        <center>
+                            <h4>Not a member?<span style="color:slateblue; cursor: pointer;" onclick="newUser()">Sign
+                                    Up</span></h4>
+                        </center>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    
+        <!-- Sign Up Modal Content -->
+        <div id="snup" class="modal">
+    
+            <!-- Modal content -->
+            <div  class="modal-content">
+                <span id="c1" class="close2">&times;</span>
+                <h2>
+                    <center>Get Started</center>
+                </h2>
+                <hr>
+                <form id="form-style">
+                    <h4 class="elem1">Full Name</h4>
+                    <input class="inp1" type="text" name="fname" placeholder="Enter Full Name" required>
+                    <h4 class="elem1">Username</h4>
+                    <input class="inp1" type="text" name="fname" placeholder="Enter Username" required>
+                    <h4 class="elem1">Password</h4>
+                    <input class="inp1" type="password" name="pass" placeholder="Enter Password" required>
+                    <h4 class="elem1">Confirm Password</h4>
+                    <input class="inp1" type="password" name="confPass" placeholder="Confirm Password" required>
+                    <button>Sign Up</button>
+                </form>
+            </div>
+    
+        </div>
+    <!--Javascript for rest of the elements in this file -->
+     <script src="F:\project jyoti\javascript\index.js"></script>
+ </body>
+</html>
