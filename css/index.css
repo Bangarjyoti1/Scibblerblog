@@ -1,0 +1,243 @@
+/*Style the body*/
+body{
+    background: url("../css/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover!important;
+    overflow:hidden;
+    display: block;
+ }
+ /*Style the logo*/
+ .logo-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: #112fb4;
+    margin: auto;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;    
+    }
+    .middleText{
+        font-family: 'Marck Script', cursive;
+        margin-top: 0;
+        margin: 0 0 0px 10px;
+        }
+        /*Style the main button*/
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        /*style hover on button*/
+        button:hover {
+         opacity:1;
+        }
+        /*style the Sign and sign up buttons*/
+        input.topButtons {
+         width: 90px;
+         padding: 10px;
+         cursor: pointer;
+         font-weight: 500;
+         font-size: 90%;
+         background: #0000ff;
+         color: #fff;
+         float: right;                  
+         
+         margin: 10px 10px 0px 0px;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+        .postButtons {
+          width:300px;
+          height:200px;
+          position:absolute;
+          left:50%;
+          top:50%;
+          margin:-100px 0 0 -150px;
+          
+       }
+       
+       /* Style the main body button */
+       input.mainButtons {
+          width: 100px;
+          padding: 10px;
+          cursor: pointer;
+          font-weight: 500;
+          font-size: 90%;
+          background: yellow;
+          color: #000;    
+          border: none;           
+          margin: 10px 10px 0px 0px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: inline;
+       }
+       
+       button.mainButtons {
+          width: 100px;
+          padding: 10px;
+          cursor: pointer;
+          font-weight: 500;
+          font-size: 90%;
+          font-weight: 500;
+          background: yellow;
+          color: #000;  
+          opacity: 1;             
+          margin: 10px 10px 0px 0px;
+          font-family: Arial, Helvetica, sans-serif;
+          
+       }
+       
+       /* Style the link on the main body */
+       button.mainButtons a{
+          text-decoration: none;
+          color: black;
+          font-weight: 500;
+          }
+        /* latin */
+  @font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v8/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding: 100px 20px 100px 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+/*style the signup button*/
+#snup{
+display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding: 90px 10px 90px 10px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+  
+  /* Style The Modal Content */
+  .modal-content {
+    position: relative;
+    top: -34px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 25%;
+    height: 65%;
+  }
+  .modal-content1 {
+    position: relative;
+    top: -34px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 25%;
+    height: 53%;
+  }
+  /*style the another model content for sign up*/
+  #modal-content1 {
+    position: relative;
+    top: -34px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2px;
+    border: 1px solid #888;
+    width: 25%;
+    height: 80%;
+  }
+  
+  /* The Close button on the modal*/
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  /*Style hover on close on blog*/
+ .close1:hover,
+ .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*style the inputs in form*//
+.inp{
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-left: 6%;
+    background-color: #f1f1f1;
+    display: block;
+    width:92%;
+    height:25px;
+    margin-top: 0%;
+    margin-bottom: 2px;
+ }
+ .inp1{
+  border: none;
+  outline: none;
+  padding: 5px;
+  padding-left: 6%;
+  background-color: #f1f1f1;
+  display: block;
+  width:92%;
+  height:25px;
+  margin-top: 0%;
+  margin-bottom: 10px;
+}
+/*style the heading */
+.elem
+{
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.elem1{
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*style to form*/
+#form-style{
+  height: 100%;
+}
+  
+  
+  
+
+ 
